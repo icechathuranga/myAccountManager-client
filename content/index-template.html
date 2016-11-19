@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html ng-app="app" ng-strict-di>    
+    <head>
+        <style>            
+            .ng-hide { display: none!important; }
+        </style>
+        <title ng-if="!title">My Account Manager</title>
+        <title ng-if="title">{{title|translate}}</title>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no" />              
+        <link rel="shortcut icon" href="images/favicon.ico" />
+
+        <!-- build:css build/styles/lib.css -->
+        <!-- bower:css -->
+        <!-- endbower -->
+        <!-- endbuild -->
+
+        <!-- build:css build/styles/app.css -->
+        <!-- inject:css -->
+        <!-- endinject -->
+        <!-- endbuild -->
+    </head>
+    <body>
+        <div id="wrapper">
+
+        </div>
+
+        <!-- build:js build/js/lib.js -->
+        <!-- bower:js -->
+        <!-- endbower -->
+        <!-- endbuild -->
+
+        <!-- build:js build/js/app.js -->
+        <!-- inject:js -->
+        <!-- endinject -->
+
+        <!-- inject:templates:js -->
+        <!-- endinject -->
+        <!-- endbuild -->
+    </body>
+</html>

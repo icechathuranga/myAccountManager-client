@@ -1,0 +1,30 @@
+{
+  "name": "NodeJsWebApplication1",
+  "version": "1.0.0",
+  "keywords": [
+    "util",
+    "functional",
+    "server",
+    "client",
+    "browser"
+  ],
+  "author": "Nuwan Chathuranga <nuwan@orangehrm.us.com>",
+  "contributors": [],
+  "dependencies": {
+    "del": "^2.2.2",
+    "gulp-if": "^2.0.2",
+    "gulp-order": "^1.1.1",
+    "gulp-rename": "^1.2.2",
+    "lodash": "^4.17.2",
+    "wiredep": "^4.0.0"
+  },
+  "devDependencies": {
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-concat-css": "^2.3.0",
+    "gulp-debug": "^3.0.0",
+    "gulp-inject": "^4.1.0",
+    "gulp-load-plugins": "^1.4.0",
+    "gulp-plumber": "^1.1.0",
+    "gulp-sass": "^2.3.2"
+  }
+}
